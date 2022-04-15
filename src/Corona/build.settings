@@ -1,0 +1,25 @@
+settings =
+{
+	orientation = {
+		default = "portrait",
+		supported = { "portrait" }
+	},
+
+	iphone =
+	{
+		xcassets = "Images.xcassets",
+		plist =
+		{
+			UILaunchStoryboardName = "LaunchScreen",
+			NSAppTransportSecurity = { NSAllowsArbitraryLoads=true },
+		}
+	},
+
+	plugins =
+	{
+		["plugin.supersonic"] =
+		{
+			publisherId = "com.coronalabs",
+		}
+	}
+}

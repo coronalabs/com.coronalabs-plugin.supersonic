@@ -1,1 +1,6 @@
 plugins/*.tgz
+*xcuser*
+BuiltPlugin/
+build/
+.idea/
+.gradle/
